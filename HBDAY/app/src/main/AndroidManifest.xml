@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hbday">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HBDAY">
+        <activity android:name=".MainActivity6"
+            android:label="Videos (swipe up)"
+            android:parentActivityName=".MainActivity2"/>
+        <activity
+            android:name=".textactivity"
+            android:label="Texts"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity5"
+            android:label="May-8 To June-7"
+            android:parentActivityName=".MainActivity4" />
+        <activity
+            android:name=".MainActivity4"
+            android:label="Photos"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity3"
+            android:label="April-8 To May-8"
+            android:parentActivityName=".MainActivity4" />
+        <activity
+            android:name=".MainActivity2"
+            android:label="Happy Birthday Bindu"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
